@@ -17,11 +17,24 @@ public class Calculator {
         System.out.println("4. Division");
 
         int choice = scanner.nextInt();
-        
 
+        double result;
 
+        switch(choice){
+            case 1:
+                result = num1 + num2;
+                System.out.println("Result = "+result);
 
+            case 2:
+                result = num2 - num2;
+                System.out.println("Result = "+result);
 
+            case 3:
+                result = num1 * num2;
+                System.out.println("Result = "+result);
 
+            case 4:
+                
+        }
     }
 }
