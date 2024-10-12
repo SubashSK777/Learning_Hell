@@ -34,7 +34,15 @@ public class Calculator {
                 System.out.println("Result = "+result);
 
             case 4:
-                
+                if(num2 !=0){
+                    result = num1 / num2;
+                    System.out.println("Result = "+result);
+                }  else {
+                    System.out.println("Error: Division by Zero");
+                } 
+                break;
+            default:
+                System.out.println("Invalid Choice: Select a Valid Operation");
         }
     }
 }
