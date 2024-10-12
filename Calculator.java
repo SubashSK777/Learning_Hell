@@ -24,14 +24,18 @@ public class Calculator {
             case 1:
                 result = num1 + num2;
                 System.out.println("Result = "+result);
+                break;
 
             case 2:
                 result = num2 - num2;
                 System.out.println("Result = "+result);
+                break;
+
 
             case 3:
                 result = num1 * num2;
                 System.out.println("Result = "+result);
+                break;
 
             case 4:
                 if(num2 !=0){
