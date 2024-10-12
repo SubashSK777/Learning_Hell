@@ -21,32 +21,32 @@ public class Calculator {
         double result;
 
         switch(choice){
-            case 1:
+            case 1 -> {
                 result = num1 + num2;
                 System.out.println("Result = "+result);
-                break;
+            }
 
-            case 2:
+            case 2 -> {
                 result = num2 - num2;
                 System.out.println("Result = "+result);
-                break;
+            }
 
 
-            case 3:
+            case 3 -> {
                 result = num1 * num2;
                 System.out.println("Result = "+result);
-                break;
+            }
 
-            case 4:
+            case 4 -> {
                 if(num2 !=0){
                     result = num1 / num2;
                     System.out.println("Result = "+result);
                 }  else {
                     System.out.println("Error: Division by Zero");
-                } 
-                break;
-            default:
-                System.out.println("Invalid Choice: Select a Valid Operation");
+                }
+            }
+            default -> System.out.println("Invalid Choice: Select a Valid Operation");
         }
+        scanner.close();
     }
 }
