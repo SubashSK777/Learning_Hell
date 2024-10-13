@@ -6,6 +6,9 @@ public class Random {
         Scanner scanner = new Scanner(System.in);
         
         Random random = new Random();
+
+        int RandomNumber = random.nextInt(100)+1;
         
+
     }
 }
