@@ -15,9 +15,16 @@ public class Random {
         while(guess != randomNumber){
             System.out.println("Enter your Guess: ");
             guess = scanner.nextInt();
-            
+            attempts++;
 
+            if(guess > randomNumber){
+                System.out.println("High !! Try Again.");
+            } else if (guess < randomNumber){
+                System.out.println("Low !! Try Again.");
+            } else {
+                System.out.println("Correct !! You Guessed it in "+attempts+" Attempts");
+            }
         }
-
+        scanner.close();
     }
 }
