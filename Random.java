@@ -3,7 +3,9 @@ import java.util.Random;
 
 public class Random {
     public static void main(String[] args) {
-        Scanner scanner = new 
+        Scanner scanner = new Scanner(System.in);
+        
+        Random random = new Random();
         
     }
 }
