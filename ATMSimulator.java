@@ -38,7 +38,7 @@ public class ATMSimulator {
                     System.out.println("Withdraw Selected");
                     System.out.println("Enter Withdrawal Amount: ");
                     double withdraw = scanner.nextDouble();
-                    if (balance <= withdraw) {
+                    if (withdraw <= balance) {
                         balance -= withdraw;
                         System.out.println("You've Successfully Withdrawn $"+withdraw);
                         System.out.println("Your Current Balance is $"+balance); 
