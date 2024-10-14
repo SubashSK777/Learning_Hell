@@ -56,6 +56,7 @@ public class ATMSimulator {
                     System.out.println("Invalid Choice. Please Try Again.");
             }
         }
+        scanner.close();
     }
     
 }
