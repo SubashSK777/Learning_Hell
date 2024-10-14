@@ -27,6 +27,7 @@ public class ATMSimulator {
 
                 case 2:
                     System.out.println("Deposit Selected");
+                    System.out.println("Enter your Deposit Amount: ");
                     double deposit = scanner.nextDouble();
                     balance += deposit;
                     System.out.println("You've Successfully Deposited $"+deposit);
@@ -35,8 +36,16 @@ public class ATMSimulator {
 
                 case 3:
                     System.out.println("Withdraw Selected");
+                    System.out.println("Enter Withdrawal Amount: ");
                     double withdraw = scanner.nextDouble();
-                    balance -= withdraw;
+                    if (balance <= withdraw) {
+                        balance -= withdraw;
+                        System.out.println("You've Successfully Withdrawn $"+withdraw);
+                        System.out.println("Your Current Balance is $"+balance); 
+                    
+                    } else {
+                        System.out.println("Insufficient Balance. Unable to Withdraw.");
+                    }    
                     break;
 
                 case 4:
