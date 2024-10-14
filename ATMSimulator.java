@@ -27,11 +27,16 @@ public class ATMSimulator {
 
                 case 2:
                     System.out.println("Deposit Selected");
-                    double deposit = 
+                    double deposit = scanner.nextDouble();
+                    balance += deposit;
+                    System.out.println("You've Successfully Deposited $"+deposit);
+                    System.out.println("Your New Balance is $"+balance);
                     break;
 
                 case 3:
                     System.out.println("Withdraw Selected");
+                    double withdraw = scanner.nextDouble();
+                    balance -= withdraw;
                     break;
 
                 case 4:
