@@ -10,7 +10,8 @@ public class Palindrome {
 
         input = input.replaceAll("[^a-z A-Z 0-9]", "");
 
-        input = input.replace(oldChar, newChar)
+        String reverseInput = new StringBuilder(input).reverse().toString();
+        
 
 
 
