@@ -12,7 +12,7 @@ public class Palindrome {
 
         String reverseInput = new StringBuilder(input).reverse().toString();
 
-        if (input.equals(reversedInput)) {
+        if (input.equals(reverseInput)) {
             System.out.println("It is a Palindrome.");
         } else {
             System.out.println("It is not a Palindrome.");
