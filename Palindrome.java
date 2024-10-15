@@ -17,6 +17,6 @@ public class Palindrome {
         } else {
             System.out.println("It is not a Palindrome.");
         }
-
+        scanner.close();
     }
 }
