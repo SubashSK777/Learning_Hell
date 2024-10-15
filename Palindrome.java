@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        Scanner scanner = new scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a Word or Sentence: ");
         String input = scanner.nextLine();
-        input.toLowerCase();
+
+        input = input.toLowerCase();
+
+        input = input.replaceAll("[^a-z A-Z 0-9]", "");
+
+
 
 
 
