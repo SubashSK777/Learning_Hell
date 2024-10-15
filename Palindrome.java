@@ -5,7 +5,9 @@ public class Palindrome {
         Scanner scanner = new scanner(System.in);
         System.out.println("Enter a Word or Sentence: ");
         String input = scanner.nextLine();
-        
+        input.toLowerCase();
+
+
 
     }
 }
