@@ -7,6 +7,7 @@ public class Fibonacci {
         int fibo = scanner.nextInt();
 
         int first = 0;
+        
 
     }
 }
