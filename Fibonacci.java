@@ -8,7 +8,7 @@ public class Fibonacci {
 
         int first = 0;
 
-        int second
+        int second = 1;
 
     }
 }
