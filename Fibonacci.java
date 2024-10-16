@@ -1,5 +1,6 @@
-import java.util.Random;
 
 public class Fibonacci {
-    pub
+    public static void main(String[] args) {
+        
+    }
 }
