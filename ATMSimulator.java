@@ -6,15 +6,10 @@ class ATMSimulator {
 
         double balance = 1000;
 
-        int choice = 0;
+        System.out.println("1. Deposit, 2. Withdraw, 3. Check Balance");
+        int choice = scanner.nextInt();
 
         while(choice !=4){
-
-            System.out.println("ATM Menu");
-            System.out.println("1. Check Balance");
-            System.out.println("2. Deposit Money");
-            System.out.println("3. Withdraw Money");
-            System.out.println("4. Exit");
 
             System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
