@@ -52,6 +52,5 @@ class ATMSimulator {
             }
         }
         scanner.close();
-    }
-    
+    }   
 }
