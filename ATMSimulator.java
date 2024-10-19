@@ -54,5 +54,4 @@ class ATMSimulator {
         scanner.close();
     }
     
-    
 }
