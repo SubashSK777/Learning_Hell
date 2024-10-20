@@ -61,11 +61,3 @@ class ATMSimulator {
 
 
 
-
-
-
-
-
-
-
-
