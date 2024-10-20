@@ -69,18 +69,3 @@ class ATMSimulator {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
