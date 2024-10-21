@@ -9,9 +9,11 @@ class Slide1 {
         int windowSum = 0;
 
         for (int i = 0; i < K; i++){
+
             windowSum += arr[i];
-            windowSum = maxSum;
             
+            windowSum = maxSum;
+
         }
     }
     
