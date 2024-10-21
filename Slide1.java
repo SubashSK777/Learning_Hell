@@ -27,7 +27,8 @@ class Slide1 {
 * here arr[i] is the added element's index. and for the removeal we use arr[i - K],
 * which is the added index will subtract the maxLimit; 3-3; arr[i-K];
 * arr[i - K] is 0, then we will remove the element of 0th index now
-* 
+* this process is repeated at 3rd iteration, index 4 which is arr[i] is added;
+* i = 4, K = 3; arr[i - K] = arr[4 - 3] = 1; now index 1 will be removed and replaced with index 4;
 */
             windowSum += arr[i] - arr[i - K];
 
