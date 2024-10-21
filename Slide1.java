@@ -10,6 +10,8 @@ class Slide1 {
 
         for (int i = 0; i < K; i++){
             windowSum += arr[i];
+            windowSum = maxSum;
+            
         }
     }
     
