@@ -37,10 +37,9 @@ class Slide1 {
                 maxSum = windowSum;
             }
 
-            System.out.println("Maximun Sum of Subarray of Size K: "+maxSum);
-            
         }
-
+        
+        System.out.println("Maximun Sum of Subarray of Size K: "+maxSum);
         
     }
     
