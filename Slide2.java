@@ -27,7 +27,6 @@ public class Slide2 {
                 maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
             }
 
-
         }
 
     }
