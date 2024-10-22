@@ -10,7 +10,12 @@ public class Slide2 {
         
         int maxLength = 0; // To store the maximum length of 1s sequence
 
+        for(int windowEnd = 0; windowEnd < arr.length; windowEnd++){
+            if(arr[windowEnd] == 1){
+                
+            }
 
+        }
 
     }
     
