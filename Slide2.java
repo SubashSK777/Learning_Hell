@@ -12,7 +12,7 @@ public class Slide2 {
 
         for(int windowEnd = 0; windowEnd < arr.length; windowEnd++){
             if(arr[windowEnd] == 1){
-                
+                maxOnesCount++;
             }
 
         }
