@@ -26,8 +26,10 @@ public class Slide2 {
                 windowStart++;
                 maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
             }
-
+            maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
+            
         }
+        System.out.println("Maximum length of subarray with at most " + K + " 0's: " + maxLength);
 
     }
     
