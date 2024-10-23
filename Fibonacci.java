@@ -22,10 +22,7 @@ public class Fibonacci {
 
         first = second;
 
-        second = next;
-
-            
-
+        second = next;     
         }
         scanner.close();
     }     
