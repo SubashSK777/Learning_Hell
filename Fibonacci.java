@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Fibonacci {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
