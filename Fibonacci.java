@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
+        System.out.println("Enter a non-negative number for Fibonacci sequence length:");
         int fibo = scanner.nextInt();
 
         // Validate the input to ensure it's non-negative
