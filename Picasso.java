@@ -4,9 +4,8 @@ public class Picasso {
             System.out.println(i+". I Love Java");
         }
 
-        for(int j = 2; j <= 100; j+= 5){
+        for(int j = 1; j <= 100; j+= 10){
             System.out.println(j+". I Hate Java");
         }
     }
-    
 }
