@@ -3,6 +3,10 @@ public class Picasso {
         for(int i = 1; i <= 100; i++){
             System.out.println(i+". I Love Java");
         }
+
+        for(int j = 2; j <= 100; j+= 5){
+            System.out.println(j+". I Hate Java");
+        }
     }
     
 }
