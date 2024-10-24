@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Hybrid {
     public static void main(String[] args) {
-        
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter Your Gender (Male/Female): ");
@@ -11,15 +11,32 @@ public class Hybrid {
 
         boolean isMale;
 
-        if(gender.equalsIgnoreCase("Male")){
+        if (gender.equalsIgnoreCase("Male")) {
             isMale = true;
-        } else if (gender.equalsIgnoreCase("Female")){
+        } else if (gender.equalsIgnoreCase("Female")) {
             isMale = false;
-        }else {
+        } else {
             System.out.println("LGBTQ not Allowed");
             return;
         }
-        
+
+        System.out.println("Enter you Age");
+
+        int age = scanner.nextInt();
+
+        if (age < 25 && isMale) {
+
+            System.out.println("Hey Man !!");
+
+        } else if (age < 25 && !isMale) {
+
+            System.out.println("Go Learn Cooking");
+        } else if (age > 25 && isMale) {
+            System.out.println("Live Long Bruh !!");
+        } else {
+            System.out.println("Go to Kitchen and Cook");
+        }
+        scanner.close();
     }
-    
+
 }
