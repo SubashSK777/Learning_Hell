@@ -3,7 +3,14 @@ import java.util.Scanner;
 public class Picasso {
     
     public static void main(String[] args) {
-        if(){
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter Your Age: ");
+
+        int age = scanner.nextInt();
+
+        if(age < 30){
             for(int i = 1; i <= 25; i++){
                 System.out.println(i+". I Love Java");  
             }
