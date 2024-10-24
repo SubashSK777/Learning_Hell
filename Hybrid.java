@@ -26,7 +26,7 @@ public class Hybrid {
 
         if (age < 25 && isMale) {
 
-            System.out.println("Hey Man !!");
+            System.out.println("Grow and Become Strong");
 
         } else if (age < 25 && !isMale) {
 
