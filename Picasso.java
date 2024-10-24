@@ -19,5 +19,6 @@ public class Picasso {
                 System.out.println(j+". I Hate Java");
             }
         }
+        scanner.close();
     }
 }
