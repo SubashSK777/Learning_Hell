@@ -11,11 +11,11 @@ public class Picasso {
         int age = scanner.nextInt();
 
         if(age < 30){
-            for(int i = 1; i <= 25; i++){
+            for(int i = 1; i <= age; i++){
                 System.out.println(i+". I Love Java");  
             }
         } else{
-            for(int j = 1; j <= 100; j+= 10){
+            for(int j = 1; j <= age; j+= 10){
                 System.out.println(j+". I Hate Java");
             }
         }
