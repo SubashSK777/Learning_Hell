@@ -9,10 +9,10 @@ public class LongSubarray {
 
         int maxLength = 0;
 
-        int currentLength = 0;
+        int windowSum = 0;
 
         for(int windowEnd = 0; windowEnd < list.length; windowEnd++){
-            
+
         }
 
 
