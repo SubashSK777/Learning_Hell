@@ -3,7 +3,4 @@ public class Slide3 {
     
    } 
 
-
-
-   
 }
