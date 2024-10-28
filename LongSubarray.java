@@ -34,3 +34,4 @@ public class LongSubarray {
         System.out.println(minLength == Integer.MAX_VALUE ? 0 : minLength);
     }
 }
+
