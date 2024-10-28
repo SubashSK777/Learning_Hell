@@ -25,9 +25,10 @@ public class LongSubarray {
         for(int windowEnd = 0; windowEnd < list.length; windowEnd++){
             windowSum += list[windowEnd];
 
-            if(windowSum > S){
-                windowEnd - windowStart + 1;
-            }
+            while (windowSum >= S) {
+                minLength = Math.min(minLength, windowEnd - windowStart + 1);  // Update min length if smaller
+                windowSum -= list[windowStart];  // Remove the start element
+                windowStart++;
         }
 
     }
