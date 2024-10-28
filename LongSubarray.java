@@ -31,6 +31,6 @@ public class LongSubarray {
                 windowStart++;
             }
         }
-        System.out.println();
+        System.out.println(minLength == Integer.MAX_VALUE ? 0 : minLength);
     }
 }
