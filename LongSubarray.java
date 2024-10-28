@@ -23,7 +23,11 @@ public class LongSubarray {
         int windowSum = 0;
 
         for(int windowEnd = 0; windowEnd < list.length; windowEnd++){
-            windowSum += list[windowEnd]
+            windowSum += list[windowEnd];
+
+            if(windowSum > S){
+                windowEnd - windowStart + 1;
+            }
         }
 
     }
