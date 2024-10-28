@@ -11,14 +11,5 @@ public class LongSubarray {
 
         int windowSum = 0;
 
-        for(int windowEnd = 0; windowEnd < list.length; windowEnd++){
-            if (list[windowEnd] >= S){
-                maxLength++;
-            }
-        }
-
-
-
-
     }
 }
