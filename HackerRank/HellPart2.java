@@ -3,7 +3,7 @@ package HackerRank;
 import java.util.*;
 
 class HellPart2 {
-    public static void main(String []argh)
+    public static void main(String []args)
     {
 
 
