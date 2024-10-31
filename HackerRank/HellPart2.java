@@ -1,5 +1,3 @@
-package HackerRank;
-
 import java.util.*;
 
 class HellPart2 {
