@@ -30,5 +30,6 @@ class HellPart2 {
             }
 
         }
+        sc.close();
     }
 }
