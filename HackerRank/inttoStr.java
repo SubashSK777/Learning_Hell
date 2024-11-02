@@ -10,6 +10,7 @@ public class inttoStr {
         } else {
             System.out.println("Wrong answer");
         }
+        sc.close();
     }
     
 }
