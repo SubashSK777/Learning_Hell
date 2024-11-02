@@ -4,6 +4,7 @@ public class BigE {
         String Y = "Upcoming Match: " +match2("Mark", "Sean", "Dunkrick", "Diablo").toUpperCase();
         System.out.println(X);
         System.out.println(Y);
+        num();
 
     }
     public static String match(String Pla1, String Pla2, String Pla3, String Pla4){
@@ -13,5 +14,12 @@ public class BigE {
     public static String match2(String Pla5, String Pla6, String Pla7, String Pla8){
         String mat = (Pla5+ " & " +Pla6 + " vs " +Pla7 +" & "+ Pla8);
         return mat;
+    }
+    public static void num(){
+        int num1 = 20;
+        int num2 = 50;
+        int C = num1 + num2;
+        System.out.println(C);
+
     }
 }
