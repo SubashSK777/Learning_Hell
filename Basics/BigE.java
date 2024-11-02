@@ -1,7 +1,10 @@
 public class BigE {
     public static void main(String[] args) {
-        System.out.println(match("John", "Randy", "Shemus", "Big"));
-        System.out.println("Upcoming Match: " +match2("Mark", "Sean", "Dunkrick", "Diablo"));
+        String X = match("John", "Randy", "Shemus", "Big").toUpperCase();
+        String Y = "Upcoming Match: " +match2("Mark", "Sean", "Dunkrick", "Diablo").toUpperCase();
+        System.out.println(X);
+        System.out.println(Y);
+
     }
     public static String match(String Pla1, String Pla2, String Pla3, String Pla4){
         String mat = (Pla1+ " & " +Pla2 + " vs " +Pla3 +" & "+ Pla4);
