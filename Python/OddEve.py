@@ -1,2 +1,3 @@
-n = input(int("Enter a Number:")):
+n = input(int("Enter a Number:"))
+
     
