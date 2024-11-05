@@ -7,7 +7,6 @@ public class RevDig{
         while(n > 0){
             int lastDigit = n % 10;
             revDigit = revDigit * 10 + lastDigit;
-            
         }
     }
 }
