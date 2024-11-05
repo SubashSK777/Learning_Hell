@@ -5,7 +5,7 @@ public class RevDig{
     public static void Reverse(int n){
         int revDigit = 0;
         while(n > 0){
-            int la
+            int lastDigit = 
             revDigit = revDigit * 10 + 
         }
     }
