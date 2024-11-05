@@ -3,6 +3,7 @@ public class RevDig{
         Reverse(5);
     }
     public static void Reverse(int n){
-        int revDigit
+        int revDigit = 0;
+        
     }
 }
