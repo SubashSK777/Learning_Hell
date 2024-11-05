@@ -8,5 +8,5 @@ public class RevDig{
             int lastDigit = n % 10;
             revDigit = revDigit * 10 + lastDigit;
         }
-    }
+    }   
 }
