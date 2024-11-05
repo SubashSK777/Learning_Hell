@@ -8,6 +8,6 @@ public class RevDig{
             int lastDigit = n % 10;
             revDigit = revDigit * 10 + lastDigit;
         }
-        System.out.println();
+        System.out.println(revDigit);
     }   
 }
