@@ -15,6 +15,4 @@ class Classy{
 
     boolean Alive;
 
-    
-
 }
