@@ -10,4 +10,4 @@ class Classy{
     boolean Alive;
 }
 
-public
+public void
