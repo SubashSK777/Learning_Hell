@@ -12,4 +12,5 @@ class Classy{
 
 public void display(){
     System.out.println(name);
+    
 }
