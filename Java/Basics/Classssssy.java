@@ -21,7 +21,7 @@ class Classy {
     }
 }
 
-public class main{
+public class Classssssy{
     public static void main(String[] args) {
         Classy Subash = new Classy();
         Subash.name = "Subash Kumar";
