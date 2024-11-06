@@ -12,6 +12,6 @@ class Classy{
 
 public void display(){
     System.out.println(name);
-    sout
+    System.out.println();
 
 }
