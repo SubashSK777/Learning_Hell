@@ -4,7 +4,6 @@ class Classy{
     String name
     LocalDate DoB; // year, month, day
     int age;
-
     int Phnum;
 
     String Location;
