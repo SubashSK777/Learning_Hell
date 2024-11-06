@@ -14,5 +14,4 @@ class Classy{
     char Gender;
 
     boolean Alive;
-
 }
