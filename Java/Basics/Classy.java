@@ -10,4 +10,6 @@ class Classy{
     boolean Alive;
 }
 
-public void display
+public void display(){
+    
+}
