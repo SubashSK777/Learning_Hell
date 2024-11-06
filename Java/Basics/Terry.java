@@ -5,7 +5,7 @@ public class Terry {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number");
         int n = sc.nextInt();
-        String result = (n % 0) ? "Positive" : (n < 0) ? "Negative" : "This is 0";
+        String result = (n % 2 == 0) ? "Positive" : (n < 0) ? "Negative" : "This is 0";
         System.out.println(result);
         sc.close();
     }
