@@ -10,3 +10,4 @@ class Classy{
     boolean Alive;
 }
 
+public
