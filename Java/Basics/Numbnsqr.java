@@ -8,3 +8,5 @@ public class Numbnsqr {
         }
     }
 }
+// Time Complexity : O(n); cuz it grows with the int n;
+// Space Complexity : O(1); cuz only 1 number is being processed at a time;
