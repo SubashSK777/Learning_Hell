@@ -6,5 +6,6 @@ public class stringlen2{
         String word = sc.nextLine();
         int length = word.length();
         System.out.println(length);
+        sc.close();
     }
 }
