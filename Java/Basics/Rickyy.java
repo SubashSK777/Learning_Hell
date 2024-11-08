@@ -2,5 +2,7 @@ public class Rickyy {
     public static void main(String[] args) {
         
     }
-    public static int 
+    public static int Incre(int n){
+        while()
+    }
 }
