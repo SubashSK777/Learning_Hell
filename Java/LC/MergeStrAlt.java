@@ -10,7 +10,7 @@ class Solution {
 
 public class MergeStrAlt{
     public static void main(String[] args) {
-        Append.mergeAlternately("Subash", "Kumar");
+        Solution.mergeAlternately("Subash", "Kumar");
     }
 }
 
