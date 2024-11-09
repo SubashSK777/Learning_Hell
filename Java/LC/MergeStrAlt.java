@@ -2,7 +2,9 @@ class Append {
     public static void mergeAlternately(String word1, String word2) {
         String word1;
         String word2;
-        for (int i = 0, j = 0; i < word1.length()  )
+        for (int i = 0, j = 0; i < word1.length() || j < word2.length(); i++, j++){
+            
+        }
 
     }
 }
