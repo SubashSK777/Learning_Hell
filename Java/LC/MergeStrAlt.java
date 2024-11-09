@@ -1,6 +1,9 @@
 class Append {
     public static void mergeAlternately(String word1, String word2) {
+        String word1;
+        String word2;
         
+
     }
 }
 
