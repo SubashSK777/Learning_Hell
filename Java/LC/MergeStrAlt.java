@@ -13,3 +13,5 @@ public class MergeStrAlt{
         Append.mergeAlternately("Subash", "Kumar");
     }
 }
+
+
