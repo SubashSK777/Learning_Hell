@@ -10,8 +10,8 @@ public class LCM {
         }
         return a;
     }
-    public static void lcm(int a){
-        gcd(0, 0)
+    public static int lcm(int a, int b){
+        return (a * b) / gcd(a, b);
 
     }
 }
