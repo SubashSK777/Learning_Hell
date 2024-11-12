@@ -1,6 +1,6 @@
 public class LCM {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(lcm(18, 3));
         
     }
     public static int gcd(int a, int b){
