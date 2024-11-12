@@ -1,6 +1,6 @@
 public class GCD {
     public static void main(String[] args) {
-        
+        gcd(3697, 530)
     }
 
     public static int gcd (int a, int b){
@@ -9,5 +9,6 @@ public class GCD {
            b = a % b;
            a = temp; 
         }
+        return a;
     }
 }
