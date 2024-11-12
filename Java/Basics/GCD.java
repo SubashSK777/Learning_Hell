@@ -1,6 +1,6 @@
 public class GCD {
     public static void main(String[] args) {
-        gcd(3697, 530)
+        System.out.println(gcd(36, 6));
     }
 
     public static int gcd (int a, int b){
