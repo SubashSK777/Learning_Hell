@@ -3,5 +3,7 @@ public class GCD {
         
     }
 
-    public static int (int)
+    public static int gcd (int a, int b){
+        
+    }
 }
