@@ -10,5 +10,8 @@ public class LCM {
         }
         return a;
     }
-    public static lcm
+    public static void lcm(){
+        
+
+    }
 }
