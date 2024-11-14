@@ -70,8 +70,7 @@ public class BankingApplication {
         int operationCount = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character
 
-        // Record start time
-        long startTime = System.nanoTime();
+        long startTime = System.nanoTime(); // Start timing in nanoseconds
 
         for (int i = 0; i < operationCount; i++) {
             String input = scanner.nextLine();
@@ -106,14 +105,12 @@ public class BankingApplication {
             }
         }
 
-        // Record end time
-        long endTime = System.nanoTime();
+        long endTime = System.nanoTime(); // End timing in nanoseconds
+        long duration = endTime - startTime; // Calculate duration in nanoseconds
 
-        // Calculate execution time
-        long duration = endTime - startTime;
-
-        // Output duration
-        System.out.println("Total execution time: " + duration / 1_000_000.0 + " milliseconds");
+        // Convert duration to milliseconds for easier readability
+        double durationInMillis = duration / 1_000_000.0;
+        System.out.printf("Total execution time: %.3f milliseconds%n", durationInMillis);
 
         scanner.close();
     }
