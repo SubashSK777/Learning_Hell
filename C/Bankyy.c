@@ -4,8 +4,8 @@
 
 typedef struct {
     double balance;
-    double transactionAmount; // Amount for credit or debit
-    int isCredit; // 1 for credit, 0 for debit
+    double transactionAmount; 
+    int isCredit;
 } Transaction;
 
 typedef struct {
@@ -18,7 +18,7 @@ typedef struct {
 Account* createAccount(double initialBalance) {
     Account* account = (Account*)malloc(sizeof(Account));
     account->balance = initialBalance;
-    account->transactions = (Transaction*)malloc(50 * sizeof(Transaction)); // Max 50 operations
+    account->transactions = (Transaction*)malloc(50 * sizeof(Transaction)); 
     account->transactionCount = 0;
     account->commitCount = 0;
     return account;
@@ -50,11 +50,11 @@ void abortTransaction(Account* account, int transactionIndex) {
     if (transactionIndex > 0 && transactionIndex <= account->transactionCount) {
         Transaction t = account->transactions[transactionIndex - 1];
         if (t.isCredit) {
-            account->balance -= t.transactionAmount; // Undo credit
+            account->balance -= t.transactionAmount; 
         } else {
-            account->balance += t.transactionAmount; // Undo debit
+            account->balance += t.transactionAmount; 
         }
-        // Remove the transaction by shifting
+
         for (int i = transactionIndex - 1; i < account->transactionCount - 1; i++) {
             account->transactions[i] = account->transactions[i + 1];
         }
@@ -63,7 +63,7 @@ void abortTransaction(Account* account, int transactionIndex) {
 }
 
 void commit(Account* account) {
-    account->commitCount = account->transactionCount; // Mark all transactions as committed
+    account->commitCount = account->transactionCount; 
 }
 
 void rollback(Account* account, int commitIndex) {
@@ -71,14 +71,14 @@ void rollback(Account* account, int commitIndex) {
         printf("Invalid rollback index.\n");
         return;
     }
-    // Restore balance to what it was after the specified commit
+
     double newBalance = account->balance;
     for (int i = 0; i < commitIndex; i++) {
         Transaction t = account->transactions[i];
         if (t.isCredit) {
-            newBalance -= t.transactionAmount; // Undo credit
+            newBalance -= t.transactionAmount;
         } else {
-            newBalance += t.transactionAmount; // Undo debit
+            newBalance += t.transactionAmount;
         }
     }
     account->balance = newBalance;
@@ -93,11 +93,10 @@ int main() {
     double initialBalance;
     int N;
 
-    // Read initial balance
+
     scanf("%lf", &initialBalance);
     Account* myAccount = createAccount(initialBalance);
 
-    // Read number of operations
     scanf("%d", &N);
     for (int i = 0; i < N; i++) {
         char operation[10];
