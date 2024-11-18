@@ -7,8 +7,10 @@ int main()
     scanf("%d", &num);
     if (num % 2 == 0){
         printf("It is Even");
-    } else if ( {
-       printf("It is Odd");
+    } else if (num == 0) {
+       printf("It is Zero");
+    } else {
+        printf("It is Odd");
     }
     return 0;
 }
