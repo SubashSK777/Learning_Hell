@@ -7,6 +7,6 @@ int main()
   scanf("%d", num);
   for (int i = 1; i <= 10; i++)
   {
-    printf("%d")
+    printf("%d" + " x " +  i + " = " + (num*i), )
   }
 }
