@@ -9,7 +9,7 @@ int main(){
   while (i < num) {
     beg *= i;
     i++; 
-    printf("%d", beg);
   }
+  printf("%d", beg);
   return 0;
 }
