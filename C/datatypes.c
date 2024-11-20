@@ -9,7 +9,7 @@ int main() {
   scanf("%f", &cost_of_item);
   float tots_cost = item * cost_of_item;
 
-  printf("You have brought %d Items for the Cost of $ %.2f per item, Total Cost is %.2f",item, cost_of_item, tots_cost);
+  printf("You have brought %d Items for the Cost of $ %.2f per item, Total Cost is $ %.2f",item, cost_of_item, tots_cost);
 
   return 0;
 }
