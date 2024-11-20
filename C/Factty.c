@@ -6,7 +6,7 @@ int main(){
   scanf("%d", &num);
   int beg = 1;
   int i = 1;
-  while (i < num) {
+  while (i <= num) {
     beg *= i;
     i++; 
   }
