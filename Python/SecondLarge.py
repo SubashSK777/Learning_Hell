@@ -11,6 +11,7 @@ def print2ndlargest(self, arr):
     elif num > second and num != first:
       second = num
       
-  for second == float('-inf'):
+  if second == float('-inf'):
     return -1
-       
+  else:
+    return second   
