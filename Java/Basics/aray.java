@@ -20,9 +20,14 @@ public class aray {
     //   System.out.println(d);
     // }
 
-    double CGPA[] = { 3.77, 1.43, 9.43, 3.69, 8.54 };
-    for (double c : CGPA) {
-      System.out.println(Double.toString(c));
+    // double CGPA[] = { 3.77, 1.43, 9.43, 3.69, 8.54 };
+    // for (double c : CGPA) {
+    //   System.out.println(Double.toString(c));
+    // }
+
+    int mark[] = { 8, 5, 7, 3, 6, 1 };
+    for (int c : mak) {
+      System.out.println(Int.toString(c));
     }
   }
 }
