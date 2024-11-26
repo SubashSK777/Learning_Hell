@@ -14,5 +14,9 @@ public class aray {
     for (double c : CGPA) {
       System.out.println(c);
     }
+
+    float GPA[] = { 3.77f, 1.43f, 9.43f, 3.69f, 8.54f };
+    for (float d : GPA) {
+      System.out.println(d);
   }
 }
