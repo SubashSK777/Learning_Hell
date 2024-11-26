@@ -26,8 +26,8 @@ public class aray {
     // }
 
     int mark[] = { 8, 5, 7, 3, 6, 1 };
-    for (int c : mak) {
-      System.out.println(Int.toString(c));
+    for (int c : mark) {
+      System.out.println(Integer.toString(c));
     }
   }
 }
