@@ -3,11 +3,14 @@ public class aray {
     int num[] = { 1, 3, 5, 7, 9 };
     for (int n : num) {
       System.out.println(n); 
+    }
 
     String Name[] = { "Subash", "Bash", "Sethu", "Pandi" };
     for (String name : Name) {
       System.out.println(name);
     }
-    }
+
+    float CGPA[] = { 3.77, 1.43, 9.43, 3.69, 8.54 };
+    for (float c : )
   }
 }
