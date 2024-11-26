@@ -4,7 +4,10 @@ public class aray {
     for (int n : num) {
       System.out.println(n); 
 
-    String Name[] = { "Subash", "Bash", "Sethu", "Pandi"} ;
+    String Name[] = { "Subash", "Bash", "Sethu", "Pandi" };
+    for (String name : Name) {
+      System.out.println(name);
+    }
     }
   }
 }
