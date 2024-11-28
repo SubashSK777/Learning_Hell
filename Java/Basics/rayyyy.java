@@ -4,7 +4,7 @@ public class rayyyy {
     tabel[2] = '7';
     tabel[4] = '9';
     for (int i = 0; i < 5; i++) {
-      System.out.println(i);
+      System.out.println(tabel[i]);
     }
   }
 }
