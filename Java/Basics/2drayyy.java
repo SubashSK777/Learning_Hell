@@ -5,6 +5,10 @@ public class 2drayyy {
     matrix[2][2] = 8;
     matrix[4][2] = 10;
 
-    for(int i = 0; )
+    for(int i = 0; i < 5; i++) {
+      for(int j = 0; j < 3; j++) {
+        
+      }
+    }
   }
 }
