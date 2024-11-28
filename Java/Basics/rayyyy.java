@@ -1,8 +1,8 @@
 public class rayyyy {
   public static void main (String [] args) {
-    String[] tabel = new int[5];
-    tabel[2] = "Walk";
-    tabel[4] = "Jump";
+    double[] tabel = new float[5];
+    tabel[2] = 3.08;
+    tabel[4] = 4.70;
     for (int i = 0; i < 5; i++) {
       System.out.println(tabel[i]);
     }
