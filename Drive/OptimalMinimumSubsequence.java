@@ -2,19 +2,37 @@ public class OptimalMinimumSubsequence {
     public static int findOptimalSubsequenceSum(int[] arr) {
         // Check for invalid array sizes
         if (arr.length < 3) {
-            return 0; // No peaks possible in an array of size < 3
+            return 0; // No valid subsequences possible
         }
-        
-        int sum = 0;
 
-        // Traverse from the second element to the second last element
-        for (int i = 1; i < arr.length - 1; i++) {
-            if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1]) {
-                sum += arr[i];
+        int minSum = Integer.MAX_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            // Find the smallest left neighbor
+            int leftNeighbor = Integer.MAX_VALUE;
+            for (int j = 0; j < i; j++) {
+                if (arr[j] < arr[i]) {
+                    leftNeighbor = Math.min(leftNeighbor, arr[j]);
+                }
+            }
+
+            // Find the smallest right neighbor
+            int rightNeighbor = Integer.MAX_VALUE;
+            for (int k = i + 1; k < arr.length; k++) {
+                if (arr[k] < arr[i]) {
+                    rightNeighbor = Math.min(rightNeighbor, arr[k]);
+                }
+            }
+
+            // If valid neighbors exist, calculate the sum
+            if (leftNeighbor != Integer.MAX_VALUE && rightNeighbor != Integer.MAX_VALUE) {
+                int currentSum = leftNeighbor + arr[i] + rightNeighbor;
+                minSum = Math.min(minSum, currentSum);
             }
         }
 
-        return sum;
+        // If no valid peaks were found, return 0
+        return minSum == Integer.MAX_VALUE ? 0 : minSum;
     }
 
     public static void main(String[] args) {
