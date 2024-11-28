@@ -1,5 +1,5 @@
 pubic class rayyyy {
   public static void main (String [] args) {
-    int[] tabel = 
+    int[] tabel = new int[5];
   }
 }
