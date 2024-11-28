@@ -1,4 +1,4 @@
-public class 2drayyy {
+public class dra2yyy {
   public static void main (String [] args) {
     int[][] matrix = new int[5][3];
     matrix[0][0] = 5;
