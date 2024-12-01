@@ -10,5 +10,5 @@ public class Ancient {
 
 class maths{
   Ancient digit = new Ancient();
-  System.out.println(digit.x);
+  System.out.println(digit);
 }
