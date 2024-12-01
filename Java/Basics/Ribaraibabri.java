@@ -1,9 +1,10 @@
 public class Ribaraibabri {
-  public static void main(String[] args) {
-    
+
+  public static int NumPrinter (int current, int end) {
+    return current == end ? current : current + NumPrinter(current + 1, end) ;
   }
-  public static void shortre (int n) {
-    int result = (n == 1) ? 1 : (shortre(n) - 1) ? n : shortre(n - 1);
+
+  public static void main (String [] args) {
+    System.out.println(NumPrinter(1, 15));
   }
-  
 }
