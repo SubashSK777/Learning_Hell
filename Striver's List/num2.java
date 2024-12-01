@@ -1,11 +1,14 @@
 import java.util.Scanner;
 
 public class num2 {
-  public static void main(String[] args) {
+  public static int main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter a Number: ");
+    System.out.println("Enter the 1st Number: ");
     int num1 = sc.nextInt();
 
-    
+    System.out.println("Enter the 2nd Number: ");
+    int num2 = sc.nextInt();
+
+    return num1 + num2;
   }
 }
