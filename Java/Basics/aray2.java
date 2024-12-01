@@ -10,7 +10,7 @@ public class aray2
       {
         for (int k = 0; k < aray2d[i][j].length; k++)
         {
-          System.out.print(aray2d[i][j][k]);
+          System.out.print(aray2d[i][j][k] + " ");
         }
         System.out.println();
       }
