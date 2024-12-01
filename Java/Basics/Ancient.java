@@ -9,6 +9,10 @@ public class Ancient {
 }
 
 class maths{
+
   Ancient digit = new Ancient();
-  System.out.println(digit);
+
+  public pittu() {
+    System.out.println(digit);
+  }
 }
