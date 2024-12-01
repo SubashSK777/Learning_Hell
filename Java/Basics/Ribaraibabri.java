@@ -3,7 +3,7 @@ public class Ribaraibabri {
     
   }
   public static void shortre (int n) {
-    System.out.println((if n == 15) ? 15 : );
+    System.out.println((if n == 15) ? 15 : (System.out.println();));
   }
   
 }
