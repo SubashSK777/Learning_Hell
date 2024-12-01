@@ -5,7 +5,7 @@ public class oopisedaisy {
     printer();
   }
 
-  public static void printer() {
-    System.out.println("My First OOPsieeee");
+  public static void printer(String fname) {
+    System.out.println(fname + "An");
   }
 }
