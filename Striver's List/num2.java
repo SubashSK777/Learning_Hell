@@ -9,6 +9,6 @@ public class num2 {
     System.out.println("Enter the 2nd Number: ");
     int num2 = sc.nextInt();
 
-    System.out.println(num1 + num2);
+    System.out.println("Sum of 2 Numbers is: " + num1 + num2);
   }
 }
