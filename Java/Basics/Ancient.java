@@ -16,6 +16,7 @@ class maths{
   Ancient digit = new Ancient();
 
   public void pittu() {
+    int digit = 10;
     System.out.println(digit);
   }
 }
