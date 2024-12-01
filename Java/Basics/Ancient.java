@@ -7,3 +7,8 @@ public class Ancient {
     System.out.println(num.x);
   }
 }
+
+class maths{
+  Ancient digit = new Ancient();
+  System.out.println(digit.x);
+}
