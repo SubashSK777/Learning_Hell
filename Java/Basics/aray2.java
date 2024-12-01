@@ -8,8 +8,9 @@ public class aray2
     {
       for (int j = 0; j < aray2d[i].length; j++)
       {
-        System.out.println(aray2d[i][j]);
+        System.out.print(aray2d[i][j] + " ");
       }
+      System.out.println();
     }
   }
 }
