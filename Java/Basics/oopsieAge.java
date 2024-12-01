@@ -4,7 +4,6 @@ public class oopsieAge {
     AgeChecker(18);
     AgeChecker(19);
   }
-  
   public static String AgeChecker (int age) {
     if (age <= 18) {
       return "Get Lost Kid !!";
