@@ -1,14 +1,14 @@
 public class recuriveva {
   public static void main(String[] args) {
-    NattyNum(15);
+    NattyNum(1);
     
   }
-  public static int NattyNum(int n) {
-    if (n == 1) {
-      System.out.println(1);
+  public static void NattyNum(int n) {
+    if (n == 15) {
+      System.out.println(15);
     } else {
       System.out.println(n);
-      NattyNum( n - 1);
+      NattyNum( n + 1);
 
     }
   }
