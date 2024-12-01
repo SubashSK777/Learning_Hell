@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ancient",
+            "request": "launch",
+            "mainClass": "Ancient",
+            "projectName": "Learning_Hell_8a5601e5"
+        },
+        {
+            "type": "java",
             "name": "BankingApplication",
             "request": "launch",
             "mainClass": "BankingApplication",
