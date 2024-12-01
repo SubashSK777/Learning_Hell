@@ -5,7 +5,9 @@ public class Ancient {
     Ancient num1 = new Ancient();
     System.out.println(num1.x + 1);
     System.out.println(num.x);
-    System.out.println(pittu.digit);
+
+    maths bleak = new maths();
+    System.out.println(bleak.digit + 10);
   }
 }
 
