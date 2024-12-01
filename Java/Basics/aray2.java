@@ -6,7 +6,10 @@ public class aray2
 
     for (int i = 0; i < aray2d.length; i++) 
     {
-      for (int j = 0; )
+      for (int j = 0; j < aray2d[i].length; j++)
+      {
+        System.out.println(aray2d[i][j]);
+      }
     }
   }
 }
