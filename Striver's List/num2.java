@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class num2 {
-  public static int main(String[] args) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the 1st Number: ");
     int num1 = sc.nextInt();
@@ -9,6 +9,6 @@ public class num2 {
     System.out.println("Enter the 2nd Number: ");
     int num2 = sc.nextInt();
 
-    return num1 + num2;
+    System.out.println(num1 + num2);
   }
 }
