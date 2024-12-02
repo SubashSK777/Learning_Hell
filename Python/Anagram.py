@@ -1,3 +1,4 @@
-b = "Malayalam"
-b = b.replace(" ", "").lower()
+def isPalindrome(b: str) -> bool:
+	b = b.replace(" ", "").lower()
+	return 
 
