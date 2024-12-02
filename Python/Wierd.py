@@ -1,9 +1,3 @@
-x = 20
-y = 10
+marks = int(input("Enter The Mark You Have Scored: "))
 
-if x < y:
-  print("Yolo")
-elif x > y:
-  print("Loins")
-else: 
-  print("Mamagazanisa")
+if (marks < 0 and marks > 100)
