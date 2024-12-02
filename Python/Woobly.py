@@ -11,7 +11,10 @@ else:
   print ("No 'Hey' Here")
   
 if "Woka" in m:
-  print ("Yes, 'Woka )
+  print ("Yes, 'Woka' is Here")
+else:
+  print("No 'Woka' here")
+         
   
   
 
