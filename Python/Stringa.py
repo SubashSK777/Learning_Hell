@@ -1,2 +1,3 @@
 a = """
-lorem ipsum """
+loremipsum.paragraph
+"""
