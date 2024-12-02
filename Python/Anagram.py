@@ -1,4 +1,5 @@
 b = "malayalam"
+b = b.lo
 straight = b[::-1]
 reverse = b[::1]
 
