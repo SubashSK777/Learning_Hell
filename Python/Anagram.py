@@ -1,5 +1,5 @@
-b = "malayalam"
-b = b.lo
+b = "Malayalam"
+b = b.lower()
 straight = b[::-1]
 reverse = b[::1]
 
