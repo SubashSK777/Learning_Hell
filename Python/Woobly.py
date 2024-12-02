@@ -3,7 +3,7 @@ y = "Shaminamina"
 z = "Hey"
 
 
-m = f"{y} {z} z x x z z"
+m = f"{y} {z} {z} {x} {x} {z} {z}"
 
 if "Hey" in m:
   print ("Yes, 'Hey' is present in the String")
