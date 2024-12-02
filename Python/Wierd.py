@@ -1,9 +1,9 @@
-x = "Hello"
+x = 20
 y = 10
 
 if x < y:
   print("Yolo")
 elif x > y:
-  print("Loyo")
+  print("Loins")
 else: 
   print("Mamagazanisa")
