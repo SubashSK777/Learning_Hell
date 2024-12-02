@@ -1,5 +1,5 @@
 b = "Malayalam"
-b = b.lower()
+b = b.replace(" ", "").lower()
 straight = b[::-1]
 reverse = b[::1]
 
