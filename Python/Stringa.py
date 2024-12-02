@@ -3,4 +3,4 @@ x = "banana"
 i = len(x) - 1
 
 while i >= 0:
-  print
+  y = i -= 1
