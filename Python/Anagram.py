@@ -4,6 +4,6 @@ straight = b[::-1]
 reverse = b[::1]
 
 if straight == reverse:
-	print("It is an Anagram")
+	print("It is an Palindrome")
 else:
-	print("It is not an Anagram")
+	print("It is not an Palindrome")
