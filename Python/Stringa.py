@@ -8,4 +8,4 @@ Chuck Norris has a mug of nails instead of coffee in the morning. Chuck Norris i
 
 """
 
-print
+print(a)
