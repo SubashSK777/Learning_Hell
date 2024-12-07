@@ -3,3 +3,5 @@ def isPalindrome(b: str) -> bool:
 	return b == b[::-1]
 
 print(isPalindrome("A man a plan a canal Panama"))
+
+
