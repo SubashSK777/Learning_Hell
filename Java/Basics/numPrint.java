@@ -6,7 +6,9 @@ public class numPrint {
     System.out.println("Enter a Number: ");
     int n =sc.nextInt();
 
-    
+    for (int i = 0; i < n; i++) {
+      System.out.println(i);
+    }
 
   }
 }

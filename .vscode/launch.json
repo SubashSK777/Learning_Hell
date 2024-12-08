@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "numPrint",
+            "request": "launch",
+            "mainClass": "numPrint",
+            "projectName": "Learning_Hell_8a5601e5"
+        },
+        {
+            "type": "java",
             "name": "Ancient",
             "request": "launch",
             "mainClass": "Ancient",
