@@ -4,16 +4,12 @@ public class FiaalREcurva {
 
     if (current == end) {
       return current;
+      System.out.println(current);
     } else {
-      int current = current + Recur( current + 1, end);
-      
+      return current + Recur( current + 1, end);
+      System.out.println(current);
     }
   }
-
-
-
-
-
   
   public static void main(String[] args) {
     Recur(1, 15);
