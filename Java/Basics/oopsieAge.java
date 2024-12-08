@@ -4,11 +4,11 @@ public class oopsieAge {
     AgeChecker(18);
     AgeChecker(19);
   }
-  public static String AgeChecker (int age) {
+  public static void AgeChecker (int age) {
     if (age <= 18) {
-      return "Get Lost Kid !!";
+      System.out.println("Get Lost Kid !!");
     } else {
-      return "Enjoy Your Drinks Man !!!";
+      System.out.println("Enjoy Your Drinks Man !!!");
     }
   }
 }
