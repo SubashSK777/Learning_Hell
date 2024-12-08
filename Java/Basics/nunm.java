@@ -10,7 +10,7 @@ public class nunm {
 
     while(i <= n) {
       i += 2;
-      System.out.println(i);
+      return i;
 
     }
   }
