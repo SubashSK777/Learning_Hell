@@ -15,3 +15,19 @@ public class FiaalREcurva {
     Recur(1, 15);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
