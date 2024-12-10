@@ -16,9 +16,3 @@ public class FiaalREcurva {
   }
 }
 
-
-
-
-
-
-
