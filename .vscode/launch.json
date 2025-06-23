@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A_Multiplication_Table",
+            "request": "launch",
+            "mainClass": "A_Multiplication_Table",
+            "projectName": "Learning_Hell_6ead6ae1"
+        },
+        {
+            "type": "java",
+            "name": "factRecurve",
+            "request": "launch",
+            "mainClass": "factRecurve",
+            "projectName": "Learning_Hell_6ead6ae1"
+        },
+        {
+            "type": "java",
             "name": "oopsieAge",
             "request": "launch",
             "mainClass": "oopsieAge",
